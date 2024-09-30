@@ -1,0 +1,11 @@
+{
+  "name": "rest-todos-users",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
