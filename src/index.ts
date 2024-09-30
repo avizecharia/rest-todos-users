@@ -12,9 +12,9 @@ const app: Express = express();
 app.use(express.json()); // to get the req.body
 app.use(cookieParser()); // to get the req.cookie(s)
 
-app.use('auth',authController)
-app.use('users',userController)
-app.use('todos',todoController)
+app.use('/auth',authController)
+app.use('/users',userController)
+app.use('/todos',todoController)
 
 app.listen(process.env.PORT, () =>
   console.log(

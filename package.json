@@ -1,9 +1,9 @@
 {
   "name": "rest-todos-users",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "none"
+    "start": "nodemon dist/index.js"
   },
   "author": "",
   "license": "ISC",
